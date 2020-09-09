@@ -17,7 +17,9 @@ const Footer = ({ data }) => (
         </ul>
 
         <ul>
-          <li>Modified with love by the Clever Programmer team ♥️</li>
+          <li>
+            <span>Modified with love by the Clever Programmer team ♥️</span>
+          </li>
         </ul>
 
         <ul className="copyright">
@@ -25,7 +27,7 @@ const Footer = ({ data }) => (
             &copy; All credit goes to Tim Baker - Copyright 2017 Tim Baker
           </li>
           <li>
-            Design by{' '}
+            Design by
             <a title="Styleshout" href="http://www.styleshout.com/">
               Styleshout
             </a>
