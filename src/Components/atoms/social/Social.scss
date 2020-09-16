@@ -1,0 +1,40 @@
+.social {
+  cursor: pointer;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-left: 42px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.icon {
+  color: #f06000;
+  font-size: 36px;
+
+  &:hover {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* header social links */
+  .social {
+    margin: 18px 0 24px 0;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* header social links */
+  .icon {
+    font-size: 20px;
+
+    .social {
+      margin: 0 6px;
+    }
+  }
+}

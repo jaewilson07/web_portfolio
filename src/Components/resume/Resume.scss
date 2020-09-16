@@ -1,0 +1,60 @@
+#resume {
+  background: #fff;
+  padding-top: 90px;
+  padding-bottom: 0px;
+  overflow: hidden;
+}
+
+.section-divider {
+  margin-bottom: 48px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e8e8e8;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section-heading {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  span {
+    border-bottom: 3px solid #11abb0;
+    padding-bottom: 6px;
+  }
+}
+
+.skills__container {
+  width: 95%;
+  float: left;
+  padding: 0;
+  text-align: left;
+}
+
+.skills-list {
+  margin-top: 36px;
+  list-style: none;
+}
+
+.header-col {
+  padding-top: 9px;
+}
+
+.main-col {
+  padding-right: 10%;
+}
+
+@media only screen and (max-width: 900px) {
+  /* Resume Section
+     ------------------------------------------------------------------- */
+  #resume {
+    h1 {
+      font: 16px/24px 'opensans-bold', sans-serif;
+    }
+  }
+  .main-col {
+    padding-right: 5%;
+  }
+}

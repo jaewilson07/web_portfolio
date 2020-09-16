@@ -1,0 +1,88 @@
+#about {
+  background-color: #2b2b2b;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+
+  h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+
+  p {
+    line-height: 30px;
+    color: #7a7a7a;
+  }
+}
+
+.main-col {
+  padding-right: 5%;
+}
+
+.download-col {
+  width: 58.33333%;
+  padding-top: 6px;
+}
+
+.download__button {
+  background: #444;
+
+  i {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+
+  &:visited,
+  &:hover,
+  &:focus {
+    color: #11abb0;
+    background: #fff;
+  }
+}
+
+.profile__pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  background-color: pink;
+}
+
+@media only screen and (max-width: 900px) {
+  .profile__pic {
+    width: 114px;
+    height: 114px;
+    margin-left: 12px;
+  }
+
+  .main-col {
+    width: 50%;
+  }
+
+  .download-col {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* About Section
+   -------------------------------------------------------------------- */
+  .profile__pic {
+    display: none;
+  }
+
+  .download__button {
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+  }
+
+  #about {
+    .main-col {
+      padding-right: 30px;
+    }
+  }
+}

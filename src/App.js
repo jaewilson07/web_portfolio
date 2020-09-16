@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 
-import $ from 'jquery';
 import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
-import Portfolio from './Components/Portfolio';
+import './css/default.css';
+import './css/media-queries.css';
+import './css/layout.scss';
+
+import Header from './Components/header/Header';
+import Footer from './Components/footer/Footer';
+import About from './Components/about/About';
+import Resume from './Components/resume/Resume';
+import Contact from './Components/contact/Contact';
+import Testimonials from './Components/testimonials/Testimonials';
+import Portfolio from './Components/portfolio/Portfolio';
 
 import { data } from './assets/resumeData';
 
@@ -22,7 +25,7 @@ const headerNav = [
 ];
 
 const App = () => {
-  const [resumeData, setResumeData] = useState(data);
+  const [resumeData] = useState(data);
 
   return (
     <div className="App">

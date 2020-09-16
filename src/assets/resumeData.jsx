@@ -1,50 +1,50 @@
 export const data = {
   main: {
-    name: 'Sonny Sangha',
-    occupation: 'ReactJS Developer && Instructor @CleverProgrammer',
-    description:
-      'Full Stack React Developer by Day, Founder && Freelancer by Night. #papaReact',
-    image: 'IG_Sonny.jpeg',
+    name: 'Jae Myong Wilson',
+    occupation:
+      'Domo Implementation Consultant, Data Strategist, and ReactJS Developer @Onyx Reporting',
+    description: 'I help organizations DO STUFF with data',
+    image: 'headshot.jpg',
     bio:
-      "My name is Sonny, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
+      'Creating and storing data is *relatively* easy.  Converting it into something with measureable value is orders of magnitude more difficult. I use big data platforms, like Domo, to quickly align data strategy with business objectives, then design and develop apps that bridge the gap between users and insight or provide new, high-value digital experiences.',
     contactmessage:
-      'Get in touch with me to receive further details, get coached or anything else.',
-    email: 'sonny@cleverprogrammer.com',
-    phone: '+44 12 345 6789',
+      'Contact me for information about consulting and mentorship services or contracting rates',
+    email: 'jae@onyxreporting.com',
+    phone: '+44 7474 261 224',
     address: {
-      street: '123 Fake Street',
+      street: null,
       city: 'London',
       state: 'UK',
-      zip: 'ABC 123',
+      zip: null,
     },
-    website: 'http://www.timbakerdev.com',
-    resumeDownload: 'http://timbakerdev.com',
+    website: 'onyxreporting.com',
+    resumeDownload:
+      'https://www.dropbox.com/s/xwbednct2j1uhbm/BI%20Resume_Cur.docx?dl=1',
     social: [
-      {
-        name: 'facebook',
-        url: 'https://www.facebook.com/sonny.sangha.3',
-        className: 'fa fa-facebook',
-      },
+      // {
+      //   name: 'facebook',
+      //   url: 'https://www.facebook.com/sonny.sangha.3',
+      //   className: 'fa fa-facebook',
+      // },
       {
         name: 'linkedin',
-        url: 'https://www.linkedin.com/in/saajansangha/',
+        url: 'https://www.linkedin.com/in//jaewor/',
         className: 'fa fa-linkedin',
       },
-      {
-        name: 'instagram',
-        url: 'https://www.instagram.com/ssssangha/',
-        className: 'fa fa-instagram',
-      },
+      // {
+      //   name: 'instagram',
+      //   url: 'https://www.instagram.com/ssssangha/',
+      //   className: 'fa fa-instagram',
+      // },
       {
         name: 'github',
-        url: 'http://github.com/sonnysangha',
+        url: 'http://github.com/jaewilson07',
         className: 'fa fa-github',
       },
     ],
   },
   resume: {
-    skillmessage:
-      'Here you can create a short write-up of your skills to show off to employers',
+    skillmessage: 'eat, sleep, code, repeat',
     education: [
       {
         school: 'University of Kent',
@@ -70,27 +70,23 @@ export const data = {
     skills: [
       {
         name: 'ReactJs',
-        level: '100%',
+        level: '75%',
       },
       {
         name: 'CSS',
-        level: '95%',
+        level: '65%',
       },
       {
-        name: 'Git',
-        level: '60%',
+        name: 'Data Warehousing and Dimensional Modeling',
+        level: '100%',
       },
       {
-        name: 'Figma && Adobe XD',
-        level: '55%',
+        name: 'Applied Data Science',
+        level: '75%',
       },
       {
-        name: 'HTML5',
-        level: '80%',
-      },
-      {
-        name: 'MongoDB',
-        level: '80%',
+        name: 'Operational Data Strategy',
+        level: '75%',
       },
     ],
   },
@@ -100,14 +96,14 @@ export const data = {
         title: 'MERN Stack WhatsApp Clone',
         category:
           'WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)',
-        image: 'whatsapp-mern.jpeg',
+        image: 'whatsapp-mern.jpg',
         url: 'https://www.youtube.com/watch?v=gzdQDxzW2Tw',
       },
       {
         title: 'MERN Stack TikTok Clone',
         category:
           'TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)',
-        image: 'tiktok-mern.jpeg',
+        image: 'tiktok-mern.jpg',
         url: 'https://www.youtube.com/watch?v=g8yGxDMyGiE',
       },
       {
@@ -119,13 +115,13 @@ export const data = {
       {
         title: 'Airbnb Clone',
         category: 'Facebook Clone built with ReactJS',
-        image: 'airbnb-clone.jpeg',
+        image: 'airbnb-clone.jpg',
         url: 'https://www.youtube.com/watch?v=BtJeH_-XYaA',
       },
       {
         title: 'Netflix Clone',
         category: 'Facebook Clone built with ReactJS',
-        image: 'netflix-clone.jpeg',
+        image: 'netflix-clone.jpg',
         url: 'https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s',
       },
     ],
